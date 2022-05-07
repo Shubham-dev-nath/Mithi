@@ -1,0 +1,832 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+}
+
+.nav-inner {
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+  position: fixed;
+  
+}
+
+.inner-col1 {
+  width: 4%;
+  height: 45px;
+  float: left;
+  margin-right: 60px;
+  margin-left: 150px;
+  display: flex;
+}
+.inner-col2 {
+  width: 90%;
+  height: 45px;
+  margin-left: 30px;
+  display: flex;
+  padding-top: 5px;
+ 
+  
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: lightslategray;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: wheat;
+}
+
+.inner-col2 a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 17px;
+  margin: 8px 8px 10px;
+
+}
+
+.inner-col2 a:hover {
+  color: wheat;
+}
+
+.nav-btn1 {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: darkblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  width: 88px;
+  height: 35px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.nav-btn1:hover {
+  background-color: mediumblue;
+}
+
+.inner-col2 input {
+  height: 30px;
+  background-color: whitesmoke;
+  border: 1px solid silver;
+  margin-top: 5px;
+
+}
+
+.col1 {
+  width: 100%;
+  height: 500px;
+  background-color: DarkBlue;
+  margin-top:5px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+}
+
+.col1 a {
+  color: mediumblue;
+}
+
+.heading {
+  margin: auto;
+  width: 900px;
+  height: auto;
+  margin-top: 60px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.col1-box {
+  margin: auto;
+  width: 1150px;
+  height: 230px;
+  color: white;
+  font-size: 15px;
+}
+
+.col1-box1 {
+
+  width: 350px;
+  height: 180px;
+  color: black;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+
+}
+
+.col1-box a {
+  font-size: 25px;
+  margin-right: 60px;
+}
+
+.col1-box2 a {
+
+  margin-right: 130px;
+}
+
+.col1-box2 {
+
+  width: 350px;
+  height: 180px;
+  color: black;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+
+}
+
+.col1-box3 {
+
+  width: 300px;
+  height: 180px;
+  color: black;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+}
+
+.col1-box3 a {
+  margin-right: 120px;
+}
+
+.col2-box {
+  margin: auto;
+  width: 900px;
+  height: 200px;
+  margin-top: 100px;
+  color: black;
+  font-size: 19px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+.Checkbox {
+  margin: auto;
+  width: 880px;
+  border: 1px solid silver;
+  height: 290px;
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.text-area-container {
+  display: flex;
+  align-items: stretch;
+
+}
+
+.text-area-container>textarea {
+  /* Same style as as the div --> */
+  border: 1px solid #c2cad8;
+  padding: 5px 10px;
+  font-size: 15 px;
+  line-height: 1.5;
+  /* <-- Same style as the div */
+  border: 1px solid black;
+  margin: 0;
+  margin-left: -50%;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+
+  /*opacity: 0.5;*/
+  /* UNCOMMENT FOR DEBUG */
+}
+
+.text-area-container>div {
+  /* Same style as as the textarea --> */
+  border: 1px solid #c2cad8;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  height: 150px;
+
+
+
+  /* <-- Same style as the textarea */
+
+  word-wrap: break-word;
+  visibility: hidden;
+  /* COMMENT FOR DEBUG */
+  /*color: red;*/
+  /* UNCOMMENT FOR DEBUG */
+}
+
+.verification {
+  margin: auto;
+  width: 885px;
+  height: 180px;
+  margin-top: 15px;
+  color: black;
+  text-align: left;
+  font-size: 18px;
+}
+
+#v1 {
+  border: 1px solid grey;
+  height: 35px;
+  width: 350px;
+}
+
+.verification input ::placeholder {
+  color: black;
+
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: black;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: black;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+
+
+}
+
+::placeholder {
+  color: silver;
+
+}
+
+.human {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border: 1px solid silver;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  background-color: whitesmoke;
+}
+
+.googlehuman {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  color: black;
+}
+
+.googlehuman button {
+  background-color: darkblue;
+  color: white;
+  width: 19%;
+  height: 19%;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.googlehuman button:hover {
+  background-color: mediumblue;
+
+}
+
+.googlehuman a {
+  text-decoration: none;
+  color: blue;
+}
+
+.products {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 40px;
+  background-color: whitesmoke;
+
+
+}
+
+.p-box {
+  width: 500px;
+  height: 100px;
+  margin-top: 10px;
+  color: black;
+  float: left;
+  margin-left: 15px;
+  font-size: 15px;
+
+}
+
+#p-box1 {
+  margin-left: 200px
+}
+
+.truster {
+  margin: auto;
+  width: 1300px;
+  height: 550px;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.truster img {
+  width: 150px;
+}
+
+.resouces {
+  margin: auto;
+  width: 1300px;
+  height: 400px;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+}
+
+.resouces a {
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: mediumblue;
+}
+
+.resouces a:hover {
+  color: #c2cad8;
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.content img {
+  width: 250px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin-right: 10px;
+  shape-image-threshold: initial;
+  cursor: pointer;
+
+}
+
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh {
+  display: none;
+}
+
+button {
+  outline: none;
+  margin-bottom: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.info {
+  margin: auto;
+  width: 1300px;
+  border: 1px solid black;
+  height: 550px;
+  margin-top: 10px;
+  color: black;
+
+}
+
+#addr {
+  margin: auto;
+  width: 500px;
+  height: 380px;
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  font-size: medium;
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  right: 200px;
+}
+
+#addr a {
+  text-decoration: none;
+}
+
+#addr a:hover {
+  color: orangered;
+}
+
+.responsive-map {
+  overflow: hidden;
+  padding-bottom: 40.25%;
+  position: relative;
+  height: 0;
+  color: black;
+  font-size: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+
+}
+
+.responsive-map iframe {
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 30%;
+  position: absolute;
+  border: 1px solid black;
+  margin-top: 120px;
+  padding-left: 100px;
+  margin-left: 80px;
+
+
+}
+
+.footer {
+  width: 100%;
+  height: 430px;
+  background-color: darkblue;
+  color: white;
+  font-size: 18px;
+
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  padding-bottom: 5px;
+}
+
+.footer a:hover {
+  color: red;
+
+}
+
+.line1 {
+  float: left;
+  position: relative;
+  left: 200px;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.l-item {
+  margin-top: 10px;
+  width: 99%;
+  height: 35%;
+  font-size: 15px;
+
+}
+
+.l-item1 {
+  width: 590px;
+  height: 150px;
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  float: left;
+  position: relative;
+  left: 140px;
+}
+
+.l-item a {
+  text-decoration: none;
+}
+
+.l-item1 input {
+  height: 30px;
+  width: 50%;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  border: 1px solid grey;
+
+}
+
+.l-btn {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: darkblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  width: 25%;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.l-btn:hover {
+  background-color: mediumblue;
+}
+
+.icon {
+  font-size: 25px;
+  float: right;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.line1-dropbtn {
+  background-color: darkblue;
+  color: white;
+  padding: 6px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.line1-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.line1-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkblue;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.line1-dropdown-content a {
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.line1-dropdown-content a:hover {
+  color: whitesmoke;
+}
+
+.line1-dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+.l1-dropbtn {
+  background-color: darkblue;
+  color: white;
+  padding: 6px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.l1-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.l1-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkblue;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.l1-dropdown-content a {
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.l1-dropdown-content a:hover {
+  color: whitesmoke;
+}
+
+.l1-dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+.l2-dropbtn {
+  background-color: darkblue;
+  color: white;
+  padding: 6px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.l2-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.l2-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkblue;
+  min-width: 190px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.l2-dropdown-content a {
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.l2-dropdown-content a:hover {
+  color: whitesmoke;
+}
+
+.l2-dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 3%;
+  top: 15px;
+  display: none;
+}
+
+.line {
+  width: 33px;
+  background-color: black;
+  height: 4px;
+  margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .burger {
+    display: block;
+}
+ 
+  .inner-col1{
+    margin-left: 8%;
+  }
+  .inner-col2{
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    margin-left: 6%;
+   
+  }
+    .topnav{
+      transition: all 0.2s ease-out;
+    }
+  .h-nab{
+    height: 450px;
+  }
+  .v-class{
+    opacity: 0;
+    
+  }
+  .heading{
+    font-size: 30px;
+    width: fit-content;
+  }
+  .col1-box{
+    width: fit-content;
+    height: 900px;
+    
+  }
+  .col1-box1{
+    border-radius: unset;
+    height: 150px;
+    border: 1px solid silver;
+  }
+  .col1-box2{
+    border-radius: unset;
+    height: 150px;
+    border: 1px solid silver;
+    margin: auto;
+
+  }
+  .col1-box3{
+    border-radius: unset;
+    height: 150px;
+    border: 1px solid silver;
+    width: 350px;
+    margin: auto;
+  }
+  .col2-box{
+    width: fit-content;
+    height: fit-content;
+
+  }
+}
